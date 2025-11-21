@@ -7,7 +7,7 @@
 ############################
 
 # Name of website
-title: Long Vu
+title: Resume
 
 # Your name to show in the footer
 author: Long Vu
@@ -17,9 +17,9 @@ author: Long Vu
 ###############################################
 
 navbar-links:
-  Resume: "resume"
-  Blog: "blog"
-  About Me: "aboutme"
+  # Resume: "resume"
+  # Blog: "blog"
+  # About Me: "aboutme"
 
 ################
 # --- Logo --- #
@@ -27,10 +27,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: '/assets/img/avatar-icon.png'
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -41,15 +41,15 @@ round-avatar: false
 #####################################
 
 social-network-links:
-  email: "vuthanglonghd@gmail.com"
+  email: 'vuthanglonghd@gmail.com'
   rss: true
   github: longthangvu
   linkedin: long-vu-b35089289
-  telephone: "+14047064868"
-  ORCID: "0009-0007-6340-2233"
+  telephone: '+14047064868'
+  ORCID: '0009-0007-6340-2233'
 
 # RSS feed description
-rss-description: "Personal website with my resume and blog posts."
+rss-description: 'Personal website with my resume and blog posts.'
 
 ###########################
 # --- General options --- #
@@ -64,7 +64,7 @@ share-links-active:
   reddit: false
 
 # How to display the link to your website in the footer
-url-pretty: "longthangvu.github.io"
+url-pretty: 'longthangvu.github.io'
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -79,7 +79,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
@@ -94,29 +94,29 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: '#FFFFFF'
+text-col: '#404040'
+link-col: '#008AFF'
+hover-col: '#0085A1'
+navbar-col: '#EAEAEA'
+navbar-text-col: '#404040'
+navbar-border-col: '#DDDDDD'
+footer-col: '#EAEAEA'
+footer-text-col: '#777777'
+footer-link-col: '#404040'
+footer-hover-col: '#0085A1'
 
 # Suggest a colour for mobile browsers to use as the browser's theme.
 # (Use the same as your link colour for consistency.)
-mobile-theme-col: "#008AFF"
+mobile-theme-col: '#008AFF'
 
 # Extra CSS/JS for custom styling and dark mode
 site-css:
-  - "/assets/css/custom-styles.css"
-  - "/assets/css/darkmode.css"
+  - '/assets/css/custom-styles.css'
+  - '/assets/css/darkmode.css'
 
 site-js:
-  - "/assets/js/darkmode.js"
+  - '/assets/js/darkmode.js'
 
 #################################
 # --- Web Analytics Section --- #
@@ -171,7 +171,7 @@ site-js:
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: '%B %-d, %Y'
 
 # Facebook App ID
 #fb_app_id: ""
@@ -181,7 +181,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/New_York"
+timezone: 'America/New_York'
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -192,19 +192,17 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
       comments: true
       social-share: true
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "page"
+      layout: 'page'
 
 # Exclude these files from production site
 exclude:
