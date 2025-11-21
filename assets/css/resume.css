@@ -1,0 +1,44 @@
+.section-header {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+  margin-bottom: 1rem;
+}
+.section-header h2 { margin-top: 0.5rem;}
+.resume-item h4 { font-family: var(--body-font); margin-top: 0.5rem}
+
+.resume-item {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #bcac89;
+}
+
+/* .publication {
+    font-size: 0.875rem;
+} */
+
+.resume-item-list p {
+    margin: 0;
+}
+
+.contact-button {
+    border-radius: 3px;
+    background-color: #dcc89f;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 1.5rem auto;
+    width: 220px;
+    font-size: 1.375rem;
+    color: #333;
+    line-height: 55px;
+    font-weight: 300;
+    transition: all .2s ease;
+    &:hover {
+    background-color: #333;
+    color: #fff;
+    }
+    &.not-looking { width: 400px; }
+}

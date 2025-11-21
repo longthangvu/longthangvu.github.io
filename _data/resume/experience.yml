@@ -1,0 +1,15 @@
+- company: Kennesaw State University
+  duration: Aug 2023 — Present
+  position: Graduate Research Assistant
+  location: Kennesaw, GA
+  jobs:
+    - job: Conducting research on foundation models for time-series with in-context learning, and efficient, hardware-aware model architectures for on-device deployment, focusing on performance–resource tradeoffs.
+    - job: Building and maintaining reproducible research workflows, coordinating experiments across projects, and collaborating with teams to evaluate and iterate on model design choices and real-world applications.
+- company: Vietnam National University
+  duration: Jul 2022 — Jul 2023
+  position: Research Assistant
+  location: Hanoi, Vietnam
+  jobs:
+    - job: Defined system requirements for the City-Scale Multi-Camera Vehicle Tracking problem, implemented a CNN-based tracking pipeline using PyTorch, OpenCV, and re-identification modules
+    - job: Conducted empirical evaluations and optimizations; collaborated with faculty and graduate researchers to refine system design
+    - job: Provided comprehensive teaching support for core courses, assisting students with technical questions and projects, maintaining course resources, and organizing lab instruction and grading for 150+ undergraduates

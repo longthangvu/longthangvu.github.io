@@ -1,0 +1,11 @@
+- topic: Foundation Time-Series Model with In-Context Learning
+  goal: Designing compact models capable of Bayesian in-context inference
+  tasks:
+    - task: Designing a compact time-series foundation model capable of state-of-the-art zero-shot forecasting, trained on small synthetic datasets with controlled temporal structure.
+    - task: Improved the model’s ability to generalize across real-world series by designing efficient temporal representations, tailoring synthetic priors, and optimizing training stability and inference efficiency.
+- topic: Efficient Large Model Architectures for On-Device Deployment
+  goal: Understand and design compact, hardware-aware models for real-world edge environments
+  tasks:
+    - task: Investigating how model architecture and design influence efficiency, robustness, and representational capacity when deployed on constrained hardware (CPU/GPU/NPU).
+    - task: Applying neural architecture search and structural analysis to design compact, production-ready models, with attention to energy consumption, memory footprint, and latency under real deployment conditions.
+    - task: Studying decision boundaries and failure modes in small-scale models to understand what architectural features support stable and reliable inference in on-device LLMs and vision models.

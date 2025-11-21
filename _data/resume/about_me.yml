@@ -1,0 +1,5 @@
+"I’m a 3rd-year Ph.D student in Computer Science and a machine learning researcher who enjoys both the theory and the engineering side of AI. \n
+
+On the theory side, I’m interested in how models reason, why they can extract patterns, make predictions, and generalize across tasks. My current research on this side explores in-context learning for time-series forecasting, using ideas from Bayesian inference and Prior-Data Fitted Networks. \n
+
+On the practical side, I love tinkering with systems and hardware. I like working close to the profiling, probing, debugging, and tuning models for on-device deployment. Lately, I’ve been focusing on making large models run efficiently on-device, especially as specialized NPUs and edge hardware become more common."
