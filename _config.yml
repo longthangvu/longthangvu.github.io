@@ -42,10 +42,11 @@ round-avatar: true
 
 social-network-links:
   email: 'vuthanglonghd@gmail.com'
-  rss: true
+  telephone: '+14047064868'
+  # rss: true
   github: longthangvu
   linkedin: long-vu-b35089289
-  telephone: '+14047064868'
+  google-scholar: QmKHRIAAAAAJ
   ORCID: '0009-0007-6340-2233'
 
 # RSS feed description
@@ -64,7 +65,7 @@ share-links-active:
   reddit: false
 
 # How to display the link to your website in the footer
-url-pretty: 'longthangvu.github.io'
+url-pretty: 'Main Page'
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -111,12 +112,12 @@ footer-hover-col: '#0085A1'
 mobile-theme-col: '#008AFF'
 
 # Extra CSS/JS for custom styling and dark mode
-site-css:
-  - '/assets/css/custom-styles.css'
-  - '/assets/css/darkmode.css'
+# site-css:
+#   - '/assets/css/custom-styles.css'
+#   - '/assets/css/darkmode.css'
 
-site-js:
-  - '/assets/js/darkmode.js'
+# site-js:
+#   - '/assets/js/darkmode.js'
 
 #################################
 # --- Web Analytics Section --- #
