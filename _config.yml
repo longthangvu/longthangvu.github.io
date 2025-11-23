@@ -97,7 +97,7 @@ navbar-var-length: false
 
 page-col: '#FFFFFF'
 text-col: '#404040'
-link-col: '#008AFF'
+link-col: '#dcc89f'
 hover-col: '#0085A1'
 navbar-col: '#EAEAEA'
 navbar-text-col: '#404040'
@@ -109,7 +109,7 @@ footer-hover-col: '#0085A1'
 
 # Suggest a colour for mobile browsers to use as the browser's theme.
 # (Use the same as your link colour for consistency.)
-mobile-theme-col: '#008AFF'
+mobile-theme-col: '#dcc89f'
 
 # Extra CSS/JS for custom styling and dark mode
 # site-css:
