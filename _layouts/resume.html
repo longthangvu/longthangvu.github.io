@@ -2,19 +2,8 @@
 layout: page
 ---
 
-{{ content }} {% include social-networks-links.html %}
-<header class="section-header">
-  <h2>About Me</h2>
-</header>
-
-<div class="resume-item">{{site.data.resume.about_me | markdownify}}</div>
-<a
-  href="mailto:{{ site.social-network-links.email }}"
-  class="contact-button no-print"
-  itemprop="email"
-  >Contact me</a
->
-
+{{ content }}
+<div class="top-links">{% include social-networks-links.html %}</div>
 <header class="section-header">
   <h2>Current Research</h2>
 </header>
@@ -61,16 +50,4 @@ layout: page
     <li>{{ skill | markdownify }}</li>
     {% endfor %}
   </ul>
-</div>
-
-<header class="section-header">
-  <h2>Publications</h2>
-</header>
-
-<div class="resume-item">
-  <ol class="resume-item-list">
-    {% for publication in site.data.resume.publications %}
-    <li class="publication">{{ publication | markdownify }}</li>
-    {% endfor %}
-  </ol>
 </div>

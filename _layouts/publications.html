@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+{{content}}
+<hr class="medium" />
+<div class="container-md publications">
+  <ol class="resume-item-list">
+    {% for publication in site.data.resume.publications %}
+    <li class="publication">{{ publication | markdownify }}</li>
+    {% endfor %}
+  </ol>
+</div>

@@ -11,8 +11,16 @@
     margin-bottom: 1rem;
 }
 
-a {
-    color: #bcac89;
+hr.medium {
+  max-width: 100%;
+  margin: 1rem auto;
+  border-width: 0.25rem;
+  border-color: #c7c7c7;
+  border-radius: 0.1875rem;
+}
+
+.top-links {
+    font-size: 1rem;
 }
 
 /* .publication {
@@ -41,4 +49,8 @@ a {
     color: #fff;
     }
     &.not-looking { width: 400px; }
+}
+
+.publications {
+    margin-top: 3.125rem;
 }

@@ -7,7 +7,7 @@
 ############################
 
 # Name of website
-title: Resume
+title: Portfolio
 
 # Your name to show in the footer
 author: Long Vu
@@ -17,8 +17,9 @@ author: Long Vu
 ###############################################
 
 navbar-links:
-  # Resume: "resume"
-  # Blog: "blog"
+  Resume: 'resume'
+  Publications: 'publications'
+  Blogs: 'blogs'
   # About Me: "aboutme"
 
 ################
@@ -98,14 +99,14 @@ navbar-var-length: false
 page-col: '#FFFFFF'
 text-col: '#404040'
 link-col: '#dcc89f'
-hover-col: '#0085A1'
+hover-col: '#bcac89'
 navbar-col: '#EAEAEA'
 navbar-text-col: '#404040'
 navbar-border-col: '#DDDDDD'
 footer-col: '#EAEAEA'
 footer-text-col: '#777777'
 footer-link-col: '#404040'
-footer-hover-col: '#0085A1'
+footer-hover-col: '#dcc89f'
 
 # Suggest a colour for mobile browsers to use as the browser's theme.
 # (Use the same as your link colour for consistency.)
