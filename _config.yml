@@ -17,6 +17,7 @@ author: Long Vu
 ###############################################
 
 navbar-links:
+  About Me: 'index'
   Resume: 'resume'
   Publications: 'publications'
   Blogs: 'blogs'
